@@ -1,6 +1,7 @@
 export const typeDefs = /* GraphQL */ `
   type Query {
     health: String!
+    userPosition(address: String!): UserPosition!
   }
 
   type UserPosition {
